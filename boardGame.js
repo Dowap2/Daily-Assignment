@@ -41,8 +41,6 @@ function boardGame(dice) {
     next = start + nextPosition(start, dice);
     console.log("from=", start, ", dice=", dice, ", next=", next);
   }
-
-  console.log();
 }
 
 const diceValue = [3, 4, 3, 5, 1];
